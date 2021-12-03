@@ -46,7 +46,7 @@ We can now move on to the second transaction:
 
 Let’s now see what happens when we add the third transaction:
 
-![](https://github.com/Pramodgopinathan/FB-Growth/blob/4f845474b05584bb76235c40a53e3d849098613a/Table%201.5.png)
+![](https://github.com/Pramodgopinathan/FB-Growth/blob/d5a9165bd7ae76572df920a7fd3ecf5dc94cb01a/Table%201.5.png)
 
 
 The third transaction did not contain Beer, unlike the two first transactions. Therefore, it was not possible to link it directly to the first tree. It has a separate starting node that you can get to via the main cheese node.
