@@ -35,6 +35,8 @@ For the remaining items, we will create an ordered table. This table will contai
 Step 4— Create the tree and add the transactions one by one
 Now, we can create the tree starting with the first transaction. Each product is a node in the tree, as follows:
 
+![](https://github.com/Pramodgopinathan/FB-Growth/blob/4d8bbf6fcc80b255e7bd1c05ff4acf6cc69ab417/Table%201.3.png)
+
 Once this FP tree is constructed, it is much faster to traverse it and find information on the most frequent itemsets.
 
 
