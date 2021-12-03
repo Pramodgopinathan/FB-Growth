@@ -30,6 +30,8 @@ In our example, let’s choose a minimum support of 7. This means that we are go
 Step 3— Order the itemsets based on individual occurrences
 For the remaining items, we will create an ordered table. This table will contain the items that have not been rejected yet, and the items inside a transaction will be ordered based on individual product occurrence.
 
+![](https://github.com/Pramodgopinathan/FB-Growth/blob/0f348423c5877f07bd4e66860b8a78cf6d303b63/Table%201.2.png)
+
 Step 4— Create the tree and add the transactions one by one
 Now, we can create the tree starting with the first transaction. Each product is a node in the tree, as follows:
 
