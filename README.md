@@ -53,6 +53,8 @@ The third transaction did not contain Beer, unlike the two first transactions. T
 
 Once this FP tree is constructed, it is much faster to traverse it and find information on the most frequent itemsets.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pramodgopinathan/FB-Growth/blob/main/FP_Growth.ipynb]
+
 
 # Conclusion
 
