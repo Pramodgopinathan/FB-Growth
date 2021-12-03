@@ -37,6 +37,13 @@ Now, we can create the tree starting with the first transaction. Each product is
 
 ![](https://github.com/Pramodgopinathan/FB-Growth/blob/4d8bbf6fcc80b255e7bd1c05ff4acf6cc69ab417/Table%201.3.png)
 
+
+Note that we also add a count to each product, which we will use for counting later on.
+We can now move on to the second transaction:
+
+
+
 Once this FP tree is constructed, it is much faster to traverse it and find information on the most frequent itemsets.
+
 
 
