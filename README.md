@@ -3,7 +3,7 @@ FP-Growth is an algorithm for extracting frequent itemsets with applications in 
 
 In general, the algorithm has been designed to operate on databases containing transactions, such as purchases by customers of a store. An itemset is considered as "frequent" if it meets a user-specified support threshold. For instance, if the support threshold is set to 0.5 (50%), a frequent itemset is defined as a set of items that occur together in at least 50% of all transactions in the database.
 
-# Why not Apriori algorighm
+# Why not Apriori Algorithm
 
 1. Using Apriori needs a generation of candidate itemsets. These itemsets may be large in number if the itemset in the database is huge.
 2. Apriori needs multiple scans of the database to check the support of each itemset generated and this leads to high costs.
@@ -61,7 +61,7 @@ Once this FP tree is constructed, it is much faster to traverse it and find info
 Firstly, we can conclude that there are two product combinations, and both associations are bidirectional. People who buy cheese, also buy wine and people who buy wine also buy cheese. Separately, we see that people who buy beer also buy potato chips and vice versa.
 
 ### The metrics of the rules
-A second thing that is interesting to look at is the metrics of the rules. Together, they tell us something about the reliability of the rules. The following three metrics are important to look at:
-The support tells us the number of times, or percentage, that the products co-occur
-The confidence tells us the number of times that a rule occurs. This can be stated differently as the conditional probability of the right-hand side given the left-hand side
+A second thing that is interesting to look at is the metrics of the rules. Together, they tell us something about the reliability of the rules. The following three metrics are important to look at: <br />
+The support tells us the number of times, or percentage, that the products co-occur <br />
+The confidence tells us the number of times that a rule occurs. This can be stated differently as the conditional probability of the right-hand side given the left-hand side <br />
 The lift gives us the strength of association
