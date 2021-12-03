@@ -42,6 +42,7 @@ Note that we also add a count to each product, which we will use for counting la
 We can now move on to the second transaction:
 
 
+![](https://github.com/Pramodgopinathan/FB-Growth/blob/4f845474b05584bb76235c40a53e3d849098613a/Table%201.4.png)
 
 Once this FP tree is constructed, it is much faster to traverse it and find information on the most frequent itemsets.
 
