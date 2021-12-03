@@ -10,5 +10,3 @@ In general, the algorithm has been designed to operate on databases containing t
 
 These shortcomings can be overcome using the FP growth algorithm.
 
-# Example Of FP-Growth Algorithm
-### Support threshold=50%, Confidence= 60%
