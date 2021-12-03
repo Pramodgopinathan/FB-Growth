@@ -54,4 +54,12 @@ The third transaction did not contain Beer, unlike the two first transactions. T
 Once this FP tree is constructed, it is much faster to traverse it and find information on the most frequent itemsets.
 
 
+# Conclusion
 
+Firstly, we can conclude that there are two product combinations, and both associations are bidirectional. People who buy cheese, also buy wine and people who buy wine also buy cheese. Separately, we see that people who buy beer also buy potato chips and vice versa.
+
+### The metrics of the rules
+A second thing that is interesting to look at is the metrics of the rules. Together, they tell us something about the reliability of the rules. The following three metrics are important to look at:
+The support tells us the number of times, or percentage, that the products co-occur
+The confidence tells us the number of times that a rule occurs. This can be stated differently as the conditional probability of the right-hand side given the left-hand side
+The lift gives us the strength of association
