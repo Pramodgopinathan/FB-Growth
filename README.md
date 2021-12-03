@@ -10,3 +10,25 @@ In general, the algorithm has been designed to operate on databases containing t
 
 These shortcomings can be overcome using the FP growth algorithm.
 
+# How does FP Growth Algorithm Work
+
+![](https://github.com/Pramodgopinathan/FB-Growth/blob/64f49fb3553cea03f3f28937377538c8df2c1c9d/Table%201.0.png)
+
+Above table shows the list of transaction done 
+
+Step 1 — Counting the occurrences of individual items
+The first step of the FP Growth algorithm is to count the occurrences of individual items. The below table shows the counts of each item:
+
+Step 2— Filter out non-frequent items using minimum support
+You need to decide on a value for the minimum support: every item or item set with fewer occurrences than the minimum support will be excluded.
+In our example, let’s choose a minimum support of 7. This means that we are going to discard items Flour and Butter.
+
+Step 3— Order the itemsets based on individual occurrences
+For the remaining items, we will create an ordered table. This table will contain the items that have not been rejected yet, and the items inside a transaction will be ordered based on individual product occurrence.
+
+Step 4— Create the tree and add the transactions one by one
+Now, we can create the tree starting with the first transaction. Each product is a node in the tree, as follows:
+
+Once this FP tree is constructed, it is much faster to traverse it and find information on the most frequent itemsets.
+
+
