@@ -19,11 +19,13 @@ Above table shows the list of transaction done
 Step 1 — Counting the occurrences of individual items
 The first step of the FP Growth algorithm is to count the occurrences of individual items. The below table shows the counts of each item:
 
-![](https://github.com/Pramodgopinathan/FB-Growth/blob/64f49fb3553cea03f3f28937377538c8df2c1c9d/Table%201.1.png)
+![](https://github.com/Pramodgopinathan/FB-Growth/blob/0f348423c5877f07bd4e66860b8a78cf6d303b63/Table%201.1.png)
 
 Step 2— Filter out non-frequent items using minimum support
 You need to decide on a value for the minimum support: every item or item set with fewer occurrences than the minimum support will be excluded.
 In our example, let’s choose a minimum support of 7. This means that we are going to discard items Flour and Butter.
+
+
 
 Step 3— Order the itemsets based on individual occurrences
 For the remaining items, we will create an ordered table. This table will contain the items that have not been rejected yet, and the items inside a transaction will be ordered based on individual product occurrence.
